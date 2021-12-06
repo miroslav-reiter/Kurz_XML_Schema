@@ -1,0 +1,26 @@
+<InformationMessage xmlns="http://schemas.gov.sk/form/G2G.InformationMessage/1.3">
+	<Subject>Žiadosť o aktiváciu elektronickej schránky na doručovanie</Subject>
+	<Text>Aktivácia na doručovanie bola zrealizovaná.</Text>
+</InformationMessage>
+
+<!-- Emmet štruktúra elementov + obsah
+InformationMessage>Subject{Žiadosť o aktiváciu schránky}+Text{Aktivácia je OK}
+<InformationMessage>
+	<Subject>Žiadosť o aktiváciu schránky</Subject>
+	<Text>Aktivácia je OK</Text>
+</InformationMessage>
+
+
+Emmet Atributy []
+dokument[velkost format autor kategoria manager]
+<dokument velkost="" format="" autor="" kategoria="" manager=""></dokument>
+
+InformationMessage[xmlns]
+<InformationMessage xmlns=""></InformationMessage>
+
+
+InformationMessage[xmlns="http://schemas.gov.sk/form/G2G.InformationMessage/1.3"]>Subject{Žiadosť o aktiváciu schránky}+Text{Aktivácia je OK}
+<InformationMessage xmlns="http://schemas.gov.sk/form/G2G.InformationMessage/1.3">
+	<Subject>Žiadosť o aktiváciu schránky</Subject>
+	<Text>Aktivácia je OK</Text>
+</InformationMessage> -->
