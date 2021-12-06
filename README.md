@@ -1,5 +1,5 @@
-# Kurz XML II. XML Scheme
-Materiály z kurzu XML Scheme
+# Kurz XML II. XML Schema
+Materiály z kurzu XML Schema
 
 ## Microsoft Office a ich súbory s rozšíreniami:
 docx
