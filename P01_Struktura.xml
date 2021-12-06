@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<koren>
+	<sprava>
+		<odosielatel></odosielatel>
+		<prijemca></prijemca>
+		<predmet></predmet>
+		<obsah></obsah>
+
+	</sprava>
+</koren>
+
+<!-- Emmet prikaz - child vnorenie
+koren>sprava
+
+<koren>
+	<sprava></sprava>
+</koren> -->
+
+<!---- Emmet - sibling - elementy na rovnakej urovni
+odosielatel+prijemca+predmet+obsah-->
+
+<!-- Poznamka -->
+<!-- 1. pravidlo pre XML a schemy. Len 1 korenovy/root element -->
+<!-- <koren2>
+
+</koren2> -->
