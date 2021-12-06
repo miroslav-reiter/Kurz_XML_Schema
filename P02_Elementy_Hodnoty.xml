@@ -1,0 +1,27 @@
+<dokument xmlns="http://schemas.gov.sk/form/upvs.iam.ziadostOAktivaciuSchrankyNaDorucovanie/1.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<nazov />
+	<ziadost>
+		<chkZiadost>1</chkZiadost>
+		<platnyOd>2017-01-05</platnyOd>
+	</ziadost>
+</dokument>
+
+<!-- Emmet prikaz pre strukturu elementov
+dokument>ziadost>chkZiadost+platnyOd -->
+
+<!-- Emmet prikaz pre obsah elementov -->
+<!-- datumPrijatiaDokumentu{2021-12-06}
+<datumPrijatiaDokumentu>2021-12-06</datumPrijatiaDokumentu> -->
+
+<!-- dokument>ziadost>chkZiadost{1}+platnyOd{2017-01-05}
+<dokument>
+	<ziadost>
+		<chkZiadost>1</chkZiadost>
+		<platnyOd>2017-01-05</platnyOd>
+	</ziadost>
+</dokument> -->
+
+<!-- Neparove znacky
+<br />
+<hr />
+<karol /> -->
