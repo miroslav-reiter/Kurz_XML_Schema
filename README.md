@@ -1,9 +1,9 @@
 # Kurz XML II. XML Schema
 :briefcase: Materiály z [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/)
 
+## 📑 Anotácia a Osnova kurzu 
 Kurz je určený všetkým, ktorý sa chcú zoznámiť s použitím a vytváraním schém XSD pre XML dokumenty. Význam a využitie schém vzhľadom k rozvoju webových služieb neustále rastie. Na kurze sa naučíš využívať hotové schémy a vytvárať vlastné, vrátane zložitých podmienok pre overenie správnosti obsahu XML dokumentov.
 
-## 📑 Osnova
 1. História formátu popisu XML dát
 2. Základy XSD
 3. XML a namespace
@@ -24,26 +24,30 @@ Kurz je určený všetkým, ktorý sa chcú zoznámiť s použitím a vytváran�
 ## :evergreen_tree: Štruktúra XML
 
 ### :closed_book: Deklarácia/prolog XML
-\<?xml version="1.0" encoding="utf-8"?>
-\<?xml version="1.0" encoding="windows-1250"?>
-
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="windows-1250"?>
+```
 ### :speech_balloon: Komentáre XML
-\<!-- Ja som komentár -->
-
+```xml
+<!-- Ja som komentár -->
+```
 ### :safety_pin: Tagy - značky (Tags)
 Otváracia značka (Opening tag): <>	
-Uzatvaracia značka (Closing tag): </>
+Uzatv8racia značka (Closing tag): </>
 
 Rozdelenie značiek:
 - **Párové (pair)**: \<dokument> \<dokument/>
 - **Nepárové (Unpair)**: \<dokument />
 
 ### :blue_book: Elementy (tvorí otváracia + uzatváracia značka a obsah, dajú sa vnárať do seba)
-\<sprava>Ahoj občan \</sprava>
-
+```xml
+<sprava>Ahoj občan</sprava>
+```
 ### :label: Atribúty (súčasťou otváracej značky, môže ich byť viac, nedajú sa vnárať do seba)
-\<bond kategoria="tajne" popis="agent">007</bond>
-
+```xml
+<bond kategoria="tajne" popis="agent">007</bond>
+```
 ### :earth_africa: Znakové entity
 - &lt;   \&lt;
 - &gt;   \&gt;
@@ -58,7 +62,7 @@ Rozdelenie značiek:
 Ďalšie znaky z [ASCII tabuľka](https://sk.wikipedia.org/wiki/ASCII)
 
 ## :bangbang: Základné právidla pre správne formátovanie/štruktúrovanie/správna syntax XML (well-formed)
-1. Deklária/prolog na prvom riadku (žiadne prázdne riadky či komentáre)
+1. Deklarácia/prolog na prvom riadku (žiadne prázdne riadky či komentáre) - odporúčanie
 2. Každý element XML musí mať začiatočnú aj koncovú značku
 3. Dokument XML musí obsahovať jediný pár značiek (skladajúci sa zo začiatočnej a koncovej značky), tzv. koreňový element dokumentu
 4. Počiatočné a koncové značky každého elementu musia byť riadne vnorené, elementy sa môžu vnárať nie prekrývať
@@ -68,7 +72,6 @@ Rozdelenie značiek:
 8. Atribúty nemôžu obsahovať viaceré hodnoty (elementy môžu)
 9. Atribúty Musia byť uzavreté v úvodzovkách resp. apostrofoch
 10. Viaceré atribúty v jednom elemente oddelené medzerou
-
 
 ## :hammer_and_wrench: Nástroje na XML
 1. **Notepad++**
@@ -105,26 +108,30 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 9. [Emmet toolkit](https://emmet.io/)
 
 **Vzorové XML elementy**:
-\<sprava></sprava>
-\<karol></karol>
-\<laco></laco>
-\<dokument></dokument>
-\<pravidlo></pravidlo>
-
-\<sprava>
-\<odosielatel>Adam Sangala</odosielatel>
-\<prijemca>Martin Marcin</prijemca>
-\<predmet>Nauč sa XML a XML Scheme!</predmet>
-\<text>Choď na tento skvelý [kurz XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/). Naučís s v pohodičke XMLko a schémy :thumbsup:. </text>
-\</sprava>
-
+```xml
+<sprava></sprava>
+<karol></karol>
+<laco></laco>
+<dokument></dokument>
+<pravidlo></pravidlo>
+```
+```xml
+<sprava>
+   <odosielatel>Adam Sangala</odosielatel>
+   <prijemca>Martin Marcin</prijemca>
+   <predmet>Nauč sa XML a XML Scheme!</predmet>
+   <text>Choď na tento skvelý kurz XML Schema(https://www.it-academy.sk/kurz/xml-ii-xml-scheme/). 
+      Naučís s v pohodičke XMLko a schémy 👍. </text>
+</sprava>
+```
 **Vzorové použitie Emmet/Zen coding**
-\<!-- Multiplikácia elementu sprava (Multiply element)  -->
-\<!-- sprava*5 -->
-\<sprava></sprava>
-\<sprava></sprava>
-\<sprava></sprava>
-\<sprava></sprava>
-\<sprava></sprava>
-
+```xml
+<!-- Multiplikácia elementu sprava (Multiply element)  -->
+<!-- sprava*5 -->
+<sprava></sprava>
+<sprava></sprava>
+<sprava></sprava>
+<sprava></sprava>
+<sprava></sprava>
+```
 
