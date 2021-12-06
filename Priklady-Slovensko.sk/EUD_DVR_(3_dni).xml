@@ -1,0 +1,16 @@
+<EUD_DVR xmlns="http://schemas.gov.sk/form/31797903.EUD-DVR-3/1.5" xmlns:data="http://dimano.sk/fsy/data" data:exported="2021-07-14T09:58:49.9198102+02:00" data:type="EUD_DVR" data:version="1.5">
+  <list>
+    <vas_list_cislo></vas_list_cislo>
+    <zo_dna></zo_dna>
+    <vybavuje></vybavuje>
+    <nase_cislo>8863-3000/2021</nase_cislo>
+    <vytvorene_v>Bratislava</vytvorene_v>
+    <vytvorene_datum>2021-07-14T00:00:00</vytvorene_datum>
+    <vytvoril></vytvoril>
+    <vytvoril_pozicia></vytvoril_pozicia>
+    <vec>Oznámenie o začatí správneho konania</vec>
+    <znenie></znenie>
+    <adresati></adresati>
+    <navedomie></navedomie>
+  </list>
+</EUD_DVR>

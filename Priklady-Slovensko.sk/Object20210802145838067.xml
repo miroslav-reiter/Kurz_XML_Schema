@@ -1,0 +1,14 @@
+
+<SendingConfirmation xmlns="http://schemas.gov.sk/form/42156424.G2G_egov_application_sending_confirmation.sk/1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Persons>
+    <SenderID>ico://sk/46759786</SenderID>
+    <RecipientID>ico://sk/30854687</RecipientID>
+  </Persons>
+  <Consignment>
+    <MessageID>5eb45660-b167-4e78-8a00-b6850b8ec55e</MessageID>
+    <MessageType>App.GeneralAgenda</MessageType>
+    <MessageSubject>Všeobecná agenda</MessageSubject>
+    <SenderBusinessReference></SenderBusinessReference>
+    <G2GReceiveDate>2021-08-02T16:58:38.0491316+02:00</G2GReceiveDate>
+  </Consignment>
+</SendingConfirmation>
