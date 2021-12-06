@@ -1,0 +1,12 @@
+
+
+a>b
+OK
+<a><b></b></a>
+
+NG - Krizovanie znaciek/elementov
+<a><b></a></b>
+
+Ziadne slovo xml v znackach/atributoch...
+<xml></xml>
+
