@@ -7,10 +7,10 @@ Materiály z [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme
 3. RSS
 4. Google služby
 5. Microsoft Office a ich súbory s rozšíreniami (x na konci - xml):
-- docx
-- pptx
-- xlsx
-- vsdx
+   - doc**x**
+   - ppt**x**
+   - xls**x**
+   - vsd**x**
 
 ## Štruktúra XML
 ### Tag - značka (Tag)
@@ -18,17 +18,17 @@ Otváracia značka (Opening tag): <>
 Uzatvaracia značka (Closing tag): </>
 
 Rozdelenie značiek:
-Párové (pair): <dokument> </dokument>
-Nepárové (Unpair)> <dokument />
+**Párové (pair)**: <dokument> </dokument>
+**Nepárové (Unpair)**> <dokument />
 
 ### Element
 <sprava>Ahoj občan </sprava>
 
 ## Nástroje na XML
-1. Notepad++
-2. Netbeans
+1. **Notepad++**
+2. **Netbeans**
 3. Microsoft Visual Studio
-4. Altova XMLSpy
+4. **Altova XMLSpy**
 5. XML Notepad
 6. XBase
 7. XMetal
@@ -36,10 +36,10 @@ Nepárové (Unpair)> <dokument />
 9. Xerlin
 
 Odporúčané doplnky do Netbeas:
-1. XML tools
-2. Npp XML treview
+1. **XML tools**
+2. **Npp XML treview**
 3. Python Script 	(kvoli emmet)
-4. Emmet/Zen coding
+4. (**Emmet/Zen coding**)[https://emmet.io/]
  
 Cesta štandardná pluginy Notepad++:
 C:\Program Files\Notepad++\plugins
@@ -54,6 +54,7 @@ Vzorové XML štruktúry:
 <dokument></dokument>
 <pravidlo></pravidlo>
 
+Vzorové použitie Emmet/Zen coding
 <!-- Multiplikácia elementu sprava (Multiply element)  -->
 <!-- sprava*5 -->
 <sprava></sprava>
