@@ -1,6 +1,15 @@
 # Kurz XML II. XML Schema
 :briefcase: Materiály z [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/)
 
+Kurz je určený všetkým, ktorý sa chcú zoznámiť s použitím a vytváraním schém XSD pre XML dokumenty. Význam a využitie schém vzhľadom k rozvoju webových služieb neustále rastie. Na kurze sa naučíš využívať hotové schémy a vytvárať vlastné, vrátane zložitých podmienok pre overenie správnosti obsahu XML dokumentov.
+
+## 📑 Osnova
+1. História formátu popisu XML dát
+2. Základy XSD
+3. XML a namespace
+4. Komplexné typy v XSD
+5. Využitie schém
+
 ## :heavy_check_mark: Využitie XML a XML Schema
 1. **Protokoly a webové služby (SOAP)**
 2. SVG
