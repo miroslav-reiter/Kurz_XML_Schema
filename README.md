@@ -61,7 +61,7 @@ Rozdelenie značiek:
 - &#064; \&064;
 Ďalšie znaky z [ASCII tabuľka](https://sk.wikipedia.org/wiki/ASCII)
 
-## :bangbang: Základné právidla pre správne formátovanie/štruktúrovanie/správna syntax XML (well-formed)
+## :bangbang: Základné pravidlá pre správne formátovanie/štruktúrovanie/správna syntax XML (well-formed)
 1. Deklarácia/prolog na prvom riadku (žiadne prázdne riadky či komentáre) - odporúčanie
 2. Každý element XML musí mať začiatočnú aj koncovú značku
 3. Dokument XML musí obsahovať jediný pár značiek (skladajúci sa zo začiatočnej a koncovej značky), tzv. koreňový element dokumentu
