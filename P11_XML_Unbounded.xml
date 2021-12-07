@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kurz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P11_Unbounded.xsd">
+<!-- meno+lektor+prerekvizita -->
+<meno>XML II. XML Schema</meno>
+<lektor>Adam Sangala</lektor>
+<lektor>Miroslav Reiter</lektor>
+<lektor>Mario Kasuba</lektor>
+<lektor>Eliska Dlha</lektor>
+<prerekvizita>Znalost textoveho editora</prerekvizita>
+<prerekvizita>Znalost tabulkoveho editora</prerekvizita>
+<prerekvizita>Znalost XML</prerekvizita>
+</kurz>
