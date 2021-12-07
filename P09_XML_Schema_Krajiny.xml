@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- country[xmlns:xsi xsi:noNamespaceSchemaLocation]>name+population+city -->
+<country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P09_Validacia_Krajiny.xsd">
+	<name>Slovensko</name>
+	<population>5.0</population>
+	<city>Bratislava</city>
+</country>
