@@ -73,7 +73,7 @@ Rozdelenie značiek:
 9. Atribúty Musia byť uzavreté v úvodzovkách resp. apostrofoch
 10. Viaceré atribúty v jednom elemente oddelené medzerou
 
-## :hammer_and_wrench: Nástroje na XML
+## :hammer_and_wrench: Nástroje na XML a XSD
 1. [**Notepad++**](https://notepad-plus-plus.org/downloads/)
 2. [**Netbeans**](https://netbeans.apache.org/download/index.html)
 3. [**Visual Studio Code**](https://code.visualstudio.com/)
