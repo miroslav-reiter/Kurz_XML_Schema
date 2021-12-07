@@ -74,27 +74,36 @@ Rozdelenie značiek:
 10. Viaceré atribúty v jednom elemente oddelené medzerou
 
 ## :hammer_and_wrench: Nástroje na XML
-1. **Notepad++**
-2. **Netbeans**
-3. Microsoft Visual Studio
-4. **Altova XMLSpy**
-5. XML Notepad
-6. XBase
-7. XMetal
-8. CAMed
-9. Xerlin
+1. [**Notepad++**](https://notepad-plus-plus.org/downloads/)
+2. [**Netbeans**](https://netbeans.apache.org/download/index.html)
+3. [**Visual Studio Code**](https://code.visualstudio.com/)
+4. Microsoft Visual Studio
+5. [**Altova XMLSpy**](https://www.altova.com/xmlspy-xml-editor/download#)
+6. [**Online XSD to XML generator**](http://xsd2xml.com/)
+7. [**Visual XSD**](http://visualxsd.com/)
+8. [**Free Online XML to XSD Converter**](https://www.liquid-technologies.com/online-xml-to-xsd-converter)
+9. XML Notepad
+10. XBase
+11. XMetal
+12. CAMed
+13. Xerlin
 
 :memo: Odporúčané doplnky do [**Notepad++**](https://notepad-plus-plus.org/downloads):
 1. **XML tools**
 2. **Npp XML treview**
 3. Python Script 	(kvoli emmet)
 4. [**Emmet/Zen coding**](https://emmet.io/)
- 
+
 **Cesta štandardná** pluginy Notepad++:
 C:\Program Files\Notepad++\plugins
  
 **Cesta** pluginy Notepad++ z **Microsoft Store**:
 C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
+
+:repeat: Odporúčané doplnky do [**Visual Studio Code**](https://code.visualstudio.com/)
+1. [**XML Complete Rogalmic**](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
+2. [**XML Red Hat**](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+3. [**Emmet/Zen coding Mithril**](https://emmet.io/)
 
 ### :books: Odporúčané zdroje
 1. [W3C Dokumentácia XML](https://www.w3.org/TR/xml/)
