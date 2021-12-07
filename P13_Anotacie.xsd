@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:annotation>
+  <xs:appinfo>Poznamky k pripojeniu sa na Slovensko.sk </xs:appinfo>
+  <xs:documentation xml:lang="sk">
+  Tato schema definuje podmienky pripojenie sluzby na Slovensko.sk
+  </xs:documentation>
+</xs:annotation>
+
+<xs:element name="sluzba"> 
+</xs:element>
+
+</xs:schema>
