@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- xs:element[name=kurz] -->
+<xs:element name="kurz">
+ <!-- xs:complexType>xs:sequence -->
+<xs:complexType>
+	<xs:sequence>
+	 <!-- xs:element[name type="xs:string"]*3 -->
+	<xs:element name="meno" type="xs:string"></xs:element>
+	<xs:element name="lektor" type="xs:string" maxOccurs="unbounded"></xs:element>
+	<xs:element name="prerekvizita" type="xs:string" minOccurs="0" maxOccurs="unbounded" ></xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+</xs:element>
+
+</xs:schema>
