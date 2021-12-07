@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- country[xmlns:xsi xsi:noNamespaceSchemaLocation]>name+population+city -->
+<country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P10_Choice.xsd">
+	<name>Slovensko</name>
+	<!-- prezident{Zuzana Caputova} -->
+	<lud> </lud>
+	
+</country>
