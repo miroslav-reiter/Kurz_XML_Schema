@@ -116,7 +116,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 8. [Derek Banas – Video tutorial XML](https://www.youtube.com/watch?v=tAN-1xUsftg&list=PLBB413675AFBDC1F4)
 9. [Emmet toolkit](https://emmet.io/)
 
-**Vzorové XML elementy**:
+### Vzorové XML elementy
 ```xml
 <sprava></sprava>
 <karol></karol>
@@ -124,6 +124,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 <dokument></dokument>
 <pravidlo></pravidlo>
 ```
+### Vnorenie (childing) XML elementov
 ```xml
 <sprava>
    <odosielatel>Adam Sangala</odosielatel>
@@ -133,7 +134,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
       Naučís s v pohodičke XMLko a schémy 👍. </text>
 </sprava>
 ```
-**Vzorové použitie Emmet/Zen coding**
+### Vzorové použitie Emmet/Zen coding
 ```xml
 <!-- Multiplikácia elementu sprava (Multiply element)  -->
 <!-- sprava*5 -->
