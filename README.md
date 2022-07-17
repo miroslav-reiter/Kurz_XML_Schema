@@ -63,14 +63,14 @@ Rozdelenie značiek:
 
 ## :bangbang: Základné pravidlá pre správne formátovanie/štruktúrovanie/správna syntax XML (well-formed)
 1. Deklarácia/prolog na prvom riadku (žiadne prázdne riadky či komentáre) - odporúčanie
-2. Každý element XML musí mať začiatočnú aj koncovú značku
-3. Dokument XML musí obsahovať jediný pár značiek (skladajúci sa zo začiatočnej a koncovej značky), tzv. koreňový element dokumentu
-4. Počiatočné a koncové značky každého elementu musia byť riadne vnorené, elementy sa môžu vnárať nie prekrývať
+2. **Každý** **element** XML musí mať **začiatočnú** aj **koncovú značku** (tag)
+3. Dokument XML musí obsahovať jediný pár značiek (skladajúci sa zo začiatočnej a koncovej značky), tzv. **koreňový element dokumentu **(root)
+4. Počiatočné a koncové značky každého elementu musia byť riadne vnorené, elementy sa môžu vnárať, nie prekrývať
 5. Mená elementov musia začínať písmenom alebo podčiarkovník (Môžu obsahovať číslice, pomlčky, bodky)
-6. Zohľadňujú sa veľkosť písmen (XML je case sensitive)
-7. Žiadne slovo XML, alebo jeho kombinácie v názvoch elementov
+6. Zohľadňujú sa veľkosť písmen (XML a XML Scheme je case sensitive - záleží na velkosti písmen)
+7. Žiadne slovo XML alebo jeho kombinácie v názvoch elementov
 8. Atribúty nemôžu obsahovať viaceré hodnoty (elementy môžu)
-9. Atribúty Musia byť uzavreté v úvodzovkách resp. apostrofoch
+9. **Atribúty** **musia** byť **uzavreté** v **úvodzovkách** resp. apostrofoch
 10. Viaceré atribúty v jednom elemente oddelené medzerou
 
 ## :hammer_and_wrench: Nástroje na XML a XSD
