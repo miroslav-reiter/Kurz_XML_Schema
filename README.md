@@ -37,8 +37,8 @@ Otváracia značka (Opening tag): <>
 Uzatv8racia značka (Closing tag): </>
 
 Rozdelenie značiek:
-- **Párové (pair)**: \<dokument> \<dokument/> v html napr. <div> </div>, <h1> </h1>, <a> </a>, <p> </p>, <video> </video>
-- **Nepárové (Unpair)**: \<dokument /> v html napr. <br />, <hr />, <img />
+- **Párové (pair)**: \<dokument> \<dokument/> v html napr. \<div> \</div>, \<h1> \</h1>, \<a> \</a>, \<p> \</p>, \<video> \</video>
+- **Nepárové (Unpair)**: \<dokument /> v html napr. \<br />, \<hr />, \<img />
 
 ### :blue_book: Elementy (tvorí otváracia + uzatváracia značka a obsah, dajú sa vnárať do seba)
 ```xml
