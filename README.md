@@ -30,7 +30,14 @@ Kurz je určený všetkým, ktorý sa chcú zoznámiť s **použitím** a **vytv
 ```
 ### :speech_balloon: Komentáre XML
 ```xml
-<!-- Ja som komentár -->
+<!-- Ja som jednoriadkový komentár -->
+```
+
+```xml
+<!-- 
+   Ja som  
+   viacriadkový komentár
+-->
 ```
 ### :safety_pin: Tagy - značky (Tags)
 Otváracia značka (Opening tag): <>	
