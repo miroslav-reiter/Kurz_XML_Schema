@@ -232,7 +232,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 | Coupling (Spojenie)            | Low                     | High                      |
 | Reusable Components (Znovupoužitelnosť komponentov) | Low                     | High                      |
 
-### Matica návrhových vzorov XML Schéme
+### Matica návrhových vzorov XML Schema
 | Type definition/Element declaration |      Local     |     Global     |
 |:-----------------------------------:|:--------------:|:--------------:|
 | Local                               | Russian Doll   | Salami Slice   |
