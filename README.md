@@ -139,12 +139,16 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 8. [Tutorialspoint XML Schemas](https://www.tutorialspoint.com/xml/xml_schemas.htm#)
 9. [Edutechwiki](https://edutechwiki.unige.ch/en/XML_Schema_tutorial_-_Basics)
 10. [Microsoft podpora typu údajov xsd xml schema](https://support.microsoft.com/sk-sk/office/podpora-typu-údajov-xsd-xml-schema-definition-7cd3c906-9b9e-4a64-ba77-1b23dc5c771c)
+11. [Google XML Document Format Style Guide](https://google.github.io/styleguide/xmlstyle.html)
+12. [Global versus Local](http://www.xfront.com/GlobalVersusLocal.html#SecondDesign)
+13. [Introducing Design Patterns in XML Schemas](https://www.oracle.com/technical-resources/articles/java/design-patterns.html)
+14. [Balisage Paper: Four Basic Building Principles (Patterns) for XML Schemas](https://www.balisage.net/Proceedings/vol25/print/Bruggemann-Klein01/BalisageVol25-Bruggemann-Klein01.html)
 
 ### Vzorové XML elementy
 ```xml
 <sprava></sprava>
-<karol></karol>
-<laco></laco>
+<predmet></predmet>
+<zamestnanec></zamestnanec>
 <dokument></dokument>
 <pravidlo></pravidlo>
 ```
