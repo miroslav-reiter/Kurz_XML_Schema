@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InsuranceCompanies>
+	<Time>March 02, 2022</Time>
+	<Top_Insurance_Companies>
+		<No>1</No>
+		<Name>Berkshire Hathaway ( BRK.A) US </Name>
+		<Market_Capitalization>$714 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>2</No>
+		<Name>Ping An of China (PNGAY) China</Name>
+		<Market_Capitalization>$141 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>3</No>
+		<Name>AIA Group (AAIGF)  Hong Kong</Name>
+		<Market_Capitalization>$123 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>4</No>
+		<Name>China Life Insurance (LFC) China</Name>
+		<Market_Capitalization>$106  billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>5</No>
+		<Name>Allianz (AZSEY) Germany </Name>
+		<Market_Capitalization>$89 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>6</No>
+		<Name>Cigna (CI) US</Name>
+		<Market_Capitalization>$76 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>7</No>
+		<Name>Zurich Insurance (ZURVY) Switzerland </Name>
+		<Market_Capitalization>$97 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>8</No>
+		<Name>AXA (AXA) France</Name>
+		<Market_Capitalization>$65 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>9</No>
+		<Name>Humana (HUM) US</Name>
+		<Market_Capitalization>$55 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<Top_Insurance_Companies>
+		<No>10</No>
+		<Name>Munich (MURGY) Germany</Name>
+		<Market_Capitalization>$39 billion</Market_Capitalization>
+	</Top_Insurance_Companies>
+	<source>investopedia.com</source>
+	<url>https://www.investopedia.com/articles/active-trading/111314/top-10-insurance-companies-metrics.asp</url>
+</InsuranceCompanies>
