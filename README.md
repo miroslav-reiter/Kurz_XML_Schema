@@ -172,4 +172,23 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 <sprava></sprava>
 <sprava></sprava>
 ```
+## XML Schema desings 
+🎎 Russian doll (Ruská bábika) - **Napodobňuje štruktúru XML dokumentu**, t. j. prvky v rámci iných prvkov sú **deklarované** **lokálne**.  
+🍕 Salami slice (Salámový plátok) - R**ozloží dokument na jednotlivé prvky** a **poskladá** ich do **komponentov** tak, že **na ich odkazuje** (cez **ref**).  
+🦯 Venetian Blind (Benátsky slepec) - Rozloží dokument na **jednotlivé** **komponenty**, ale namiesto deklarácie prvkov **vytvorí definície typu**.  
 
+```xml
+<Kniha>
+        <Nazov>Harry Potter</Nazov>
+        <Autor>J. K. Rowlingová</Autor>
+</Kniha>
+```
+### 🎎 Russian doll
+
+
+
+|      Princíp      | Russian Doll | Venetian Blind |
+|:-------------------:|:-----------------------:|:-------------------------:|
+| Cohesion (Súdržnosť)            | High                    | High                      |
+| Coupling (Spojenie)            | Low                     | High                      |
+| Reusable Components (Znovupoužitelnosť komponentov) | Low                     | High                      |
