@@ -65,7 +65,7 @@ Rozdelenie značiek:
 **Ďalšie entity (HTML)**
 - &euro; \&euro;
 - &#NNN; \&NNN;
-- &#064; \&064;
+- &#064; \&#064;
 Ďalšie znaky z [ASCII tabuľka](https://sk.wikipedia.org/wiki/ASCII)
 
 ## :bangbang: Základné pravidlá pre správne formátovanie/štruktúrovanie/správna syntax XML (well-formed)
