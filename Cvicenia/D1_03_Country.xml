@@ -1,0 +1,4 @@
+<country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="country.xsd">
+	<name>France  &gt; USA</name>
+	<pop>10.5 &quot;</pop>
+</country>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- xs:element[name type] -->
+	<!-- Parovy element -->
+<!-- 	<xs:element name="Zakaznik_Adresa" type="xs:string"></xs:element>
+ -->
+	<!-- Neparovy element -->
+	<xs:element name="Zakaznik_Adresa" type="xs:string" />
+	
+	<xs:element name="Objednavka_ID" type="xs:int" />
+	<xs:element name="Zakaznik_Datum_Objednavky" type="xs:dateTime" />
+	<xs:element name="Zakaznik_Datum_Narodenia" type="xs:date" />
+	<xs:element name="Zakaznik_Rok_Narodenia" type="xs:gYear" />
+	<xs:element name="Zakaznik_Mesiac_Narodenia" type="xs:gMonth" />
+	<xs:element name="Zakaznik_VIP" type="xs:boolean" />
+
+
+</xs:schema>

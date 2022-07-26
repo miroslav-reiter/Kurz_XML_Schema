@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	
+<!-- <xs:element name="Zakaznik_Adresa" type="xs:string"></xs:element>
+Zakaznik_Adresa{Tomasikova 50} -->
+
+<!-- <Zakaznik_Adresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">Tomasikova 50
+
+</Zakaznik_Adresa> -->
+
+<!-- <xs:element name="Objednavka_ID" type="int" /> -->
+
+<!-- <Objednavka_ID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">202201</Objednavka_ID> -->
+
+<!-- <xs:element name="Zakaznik_Datum_Objednavky" type="xs:dateTime" />
+<xs:element name="Zakaznik_Datum_Narodenia" type="xs:date" />
+<xs:element name="Zakaznik_Rok_Narodenia" type="xs:gYear" />
+<xs:element name="Zakaznik_Mesiac_Narodenia" type="xs:gMonth" />
+<xs:element name="Zakaznik_VIP" type="xs:boolean" /> -->
+	
+<!-- <Zakaznik_Datum_Objednavky xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">2020-07-26T10:06:35Z</Zakaznik_Datum_Objednavky> -->
+
+<!-- <Zakaznik_Datum_Narodenia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">1985-05-10</Zakaznik_Datum_Narodenia> -->
+
+
+<!-- <Zakaznik_Rok_Narodenia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">1985</Zakaznik_Rok_Narodenia> -->
+
+<Zakaznik_VIP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_01_Datove_Typy.xsd">1</Zakaznik_VIP>
+

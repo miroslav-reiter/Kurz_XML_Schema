@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- krajina>meno -->
+<krajina xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="D1_03_Schema_Validacie.xsd">
+
+	<meno></meno>
+</krajina>

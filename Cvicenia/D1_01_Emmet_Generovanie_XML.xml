@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Toto je jednoriadkovy komentar -->
+
+<!-- lorem, lorem10 -->
+<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, necessitatibus tempore vitae placeat totam doloremque soluta odit? Molestias, quisquam, impedit placeat suscipit quaerat sapiente corrupti eum accusamus nihil ullam magni.-->
+
+<koren>
+	<vetva> </vetva>
+	<b><i></i></b>
+	<!-- Nesmieme krizovat znacky -->
+	<!-- <b><i></b></i> -->
+
+<!-- Childing, vnorenie element -->
+ <!-- dokument>autor>meno>krstne -->
+ <dokument>
+ 	<autor>
+ 		<meno>
+ 			<krstne></krstne>
+ 		</meno>
+		<dokumenty>
+	<vypis_orsr></vypis_orsr>
+</dokumenty>
+ 	</autor>
+ </dokument>
+ 
+ <!-- Sibling, chceme elementy na rovnakej urovni -->
+<!-- dokumenty>vypis_orsr+op+suvaha -->
+<dokumenty>
+	<vypis_orsr></vypis_orsr>
+	<op></op>
+	<suvaha></suvaha>
+</dokumenty>
+
+<!-- Grouping, skupinkovanie -->
+zamestnanci>(bratislava>analytici)+kosice+zilina
+<zamestnanci>
+	<bratislava>
+		<analytici></analytici>
+	</bratislava>
+	<kosice></kosice>
+	<zilina></zilina>
+</zamestnanci>
+
+Sibling, chceme elementy na rovnakej urovni
+dokumenty>vypis_orsr+op+suvaha
+<dokumenty>
+  <vypis_orsr></vypis_orsr>
+  <op></op>
+  <suvaha></suvaha>
+</dokumenty>
+
+zamestnanci>analytici+testeri+programatori+architekti
+<zamestnanci>
+  <analytici></analytici>
+  <testeri></testeri>
+  <programatori></programatori>
+  <architekti></architekti>
+</zamestnanci>
+
+Grouping, skupinkovanie
+zamestnanci>(bratislava>analytici)+(kosice>programatori)+(zilina>architekti)
+<zamestnanci>
+  <bratislava>
+    <analytici></analytici>
+  </bratislava>
+  <kosice>
+    <programatori></programatori>
+  </kosice>
+  <zilina>
+    <architekti></architekti>
+  </zilina>
+</zamestnanci>
+
+Mulplication, multiplikacia, opakovanie elementov
+dokumenty>financie*3+informacie*5
+<dokumenty>
+  <financie></financie>
+  <financie></financie>
+  <financie></financie>
+  <informacie></informacie>
+  <informacie></informacie>
+  <informacie></informacie>
+  <informacie></informacie>
+  <informacie></informacie>
+</dokumenty>
+
+Generovanie obsah pre element {}
+dokument>ziadost{ziadost o uver}
+<dokument>
+  <ziadost>ziadost o uver</ziadost>
+</dokument>
+
+dokument>ziadost{ziadost o uver}+platnost_od{2022-07-25}
+<dokument>
+  <ziadost>ziadost o uver</ziadost>
+  <platnost_od>2022-07-25</platnost_od>
+</dokument>
+
+</koren>
+
+<!-- Nesmu byt v dokumente v 2 korene <koren2>
+
+</koren2> -->
+
+

@@ -1,0 +1,11 @@
+<xs:schema
+ xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="country">
+ <xs:complexType>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="pop" type="xs:float"/>
+ </xs:complexType>
+</xs:element>
+</xs:schema>
+
+

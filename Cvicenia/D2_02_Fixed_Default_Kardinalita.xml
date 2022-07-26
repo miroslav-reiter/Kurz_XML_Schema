@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <xs:element name="Podnik_Nazov" type="xs:string" default="neznamy" />
+<xs:element name="Podnik_Lokacia" type="xs:string" fixed="SK" /> -->
+
+<!-- Default/Predvolena hodnota, ked nie je v XML dokumente zadana hodnota, pouzije sa predvolena hodnota  -->
+<!-- <Podnik_Nazov xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_02_Fixed_Default_Kardinalita.xsd">IBM Slovakia</Podnik_Nazov> -->
+
+<!-- Fixed/Pevna hodnota znamena, ze hodnota v dokumente XML moze mat iba hodnotu specifikovanu v XSD -->
+<!-- <Podnik_Lokacia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_02_Fixed_Default_Kardinalita.xsd">CZ</Podnik_Lokacia> -->
+
+<!-- <xs:element name="Zakaznik_Objednavka" type="xs:int" minOccurs="0" maxOccurs="unbounded" /> -->
+
+<!-- Kardinalita nie pri globalnych/simple elementoch -->
+<!-- <Zakaznik_Objednavka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_02_Fixed_Default_Kardinalita.xsd">2</Zakaznik_Objednavka>  -->
+
+<Zakaznik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D2_02_Fixed_Default_Kardinalita.xsd">
+	<Objednavka>1</Objednavka>
+	<Objednavka>2</Objednavka>
+	<Adresa>Vajnorska</Adresa>
+	<Zaluby></Zaluby> 
+	<Zaluby></Zaluby>
+	<Zaluby></Zaluby>
+
+</Zakaznik> 

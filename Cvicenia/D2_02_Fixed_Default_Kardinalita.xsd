@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Complex element definition -->
+<!-- xs:element[name=zakaznik]>xs:complexType>xs:sequence>xs:element[name=Objednavka type=xs:int minOccurs="0" maxOccurs="unbounded"] -->
+<xs:element name="Zakaznik">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Objednavka" type="xs:int" minOccurs="0" maxOccurs="unbounded"></xs:element>
+			<xs:element name="Adresa" type="xs:string"></xs:element>
+			<xs:element name="Zaluby" type="xs:string" minOccurs="2" maxOccurs="5"></xs:element>
+			
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

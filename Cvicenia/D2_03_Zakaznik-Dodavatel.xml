@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Dob>2020-12-21</Dob>
+  <Address>
+    <Line1>Tomasikova 50</Line1>
+    <Line2>Obchodna 10</Line2>
+  </Address>
+</Customer>

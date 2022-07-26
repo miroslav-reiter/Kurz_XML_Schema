@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dokument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ozn493_2017.xsd">
+	<hlavicka>
+		<dic>2020300337</dic>
+		<zaRok></zaRok>
+		<datumOd>01.01.2021</datumOd>
+		<datumDo>31.12.2021</datumDo>
+		<dovodDoplnenia>0</dovodDoplnenia>
+		<datumPovodne></datumPovodne>
+		<fyzickaOsoba>
+			<priezvisko></priezvisko>
+			<meno></meno>
+			<titulPred></titulPred>
+			<titulZa></titulZa>
+			<rodneCislo>
+				<rcPredLom></rcPredLom>
+				<rcZaLom></rcZaLom>
+			</rodneCislo>
+			<datumNarodenia></datumNarodenia>
+		</fyzickaOsoba>
+		<pravnickaOsoba>
+			<obchodneMeno>
+				<riadok>IBM s. r. o.</riadok>
+				<riadok></riadok>
+				<riadok></riadok>
+			</obchodneMeno>
+			<ico></ico>
+		</pravnickaOsoba>
+		<sidlo>
+			<ulica>Mlynské nivy</ulica>
+			<supisneOrientacneCislo>0</supisneOrientacneCislo>
+			<psc>82109</psc>
+			<obec>Bratislava</obec>
+			<stat>Slovensko</stat>
+		</sidlo>
+		<adresaSr>
+			<ulica>Mlynské nivy</ulica>
+			<supisneOrientacneCislo>0</supisneOrientacneCislo>
+			<psc>82109</psc>
+			<obec>Bratislava</obec>
+		</adresaSr>
+		<novaLehota>
+			<predlzenie493a>1</predlzenie493a>
+			<predlzenie493b>0</predlzenie493b>
+			<datumLehota>30.06.2022</datumLehota>
+		</novaLehota>
+		<vypracoval>
+			<vypr>Adam Šangala</vypr>
+			<dna>31.03.2022</dna>
+			<telefon></telefon>
+		</vypracoval>
+		<podpis>1</podpis>
+	</hlavicka>
+</dokument>

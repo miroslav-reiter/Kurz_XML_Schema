@@ -1,0 +1,11 @@
+
+urlset[xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"]>url*5>loc{https://www.tatrabanka.sk/}+lastmod{2022-06-24}
+
+url*5>loc+lastmod
+
+
+urlset[xmlns=http://www.sitemaps.org/schemas/sitemap/0.9]>url*5>loc{https://www.tatrabanka.sk/sk/personal/}+lastmood{2022-06-24}
+urlset[xmlns=http://www.sitemaps.org/schemas/sitemap/0.9]>url*5>loc{https://www.tatrabanka.sk/sk/personal/}+lastmood{2022-06-24}
+
+urlset[xmlns="sitemaps..."]>(url>loc+lastmod)*5
+urlset[xmlns="sitemaps..."]>(url>loc+lastmod)*5
