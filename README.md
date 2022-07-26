@@ -213,7 +213,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
   </xs:element>
 </xs:schema>
 ```
-### 🍕 Venetian Blind
+### 🦯 Venetian Blind
 ```xml
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="Kniha" type="KnihaType"/>
