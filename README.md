@@ -157,7 +157,7 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 <sprava>
    <odosielatel>Adam Sangala</odosielatel>
    <prijemca>Martin Marcin</prijemca>
-   <predmet>Nauč sa XML a XML Scheme!</predmet>
+   <predmet>Nauč sa XML a XML Schema!</predmet>
    <text>Choď na tento skvelý kurz XML Schema(https://www.it-academy.sk/kurz/xml-ii-xml-scheme/). 
       Naučís s v pohodičke XMLko a schémy 👍. </text>
 </sprava>
