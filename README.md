@@ -89,17 +89,24 @@ Rozdelenie značiek:
 6. [**Online XSD to XML generator**](http://xsd2xml.com/)
 7. [**Visual XSD**](http://visualxsd.com/)
 8. [**Free Online XML to XSD Converter**](https://www.liquid-technologies.com/online-xml-to-xsd-converter)
-9. XML Notepad
-10. XBase
-11. XMetal
-12. CAMed
-13. Xerlin
+9. [**Free Online XSD to XML Converter**](https://www.liquid-technologies.com/online-xsd-to-xml-converter)
+10. [**Freeformatter XML Validator**](https://www.freeformatter.com/xml-validator-xsd.html)
+11. [**Freeformatter XSD Generator**](https://www.freeformatter.com/xsd-generator.html)
+12. [**Codebeautify XML Tree Viewe**](https://codebeautify.org/xmlviewer)
+13. XML Notepad
+14. XBase
+15. XMetal
+16. CAMed
+17. Xerlin
 
 :memo: Odporúčané doplnky do [**Notepad++**](https://notepad-plus-plus.org/downloads):
-1. **XML tools**
+1. [**XML tools**](https://github.com/morbac/xmltools )
 2. **Npp XML treview**
-3. Python Script 	(kvoli emmet)
+3. Python Script 	(kvôli emmet)
 4. [**Emmet/Zen coding**](https://emmet.io/)
+5. Random Values
+6. Converter
+7. Regex Trainer
 
 **Cesta štandardná** pluginy Notepad++:
 C:\Program Files\Notepad++\plugins
@@ -112,16 +119,26 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 2. [**XML Red Hat**](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 3. [**Emmet/Zen coding Mithril**](https://emmet.io/)
 
-### :books: Odporúčané zdroje
+### 📄 Dokumentácia
 1. [W3C Dokumentácia XML](https://www.w3.org/TR/xml/)
 2. [W3C – Špecifikácia XML](http://www.w3.org/XML/)
 3. [W3C Dokumentácia XML Schema](https://www.w3.org/TR/xmlschema11-1/)
-4. [ZVON – Všetko o XML a ako vytvoriť XML](http://www.zvon.org/) 
-5. [Interval – Všetko o odkazoch](http://interval.cz/clanky/slabikar-xml-odkazy/)
-6. [Kosek – Seriál o XML](http://www.kosek.cz/clanky/swn-xml/index.html)
-7. [W3Schools – Tutorial XML](http://www.w3schools.com/xml/default.asp)
-8. [Derek Banas – Video tutorial XML](https://www.youtube.com/watch?v=tAN-1xUsftg&list=PLBB413675AFBDC1F4)
-9. [Emmet toolkit](https://emmet.io/)
+4. [XML Schema Part 1: Structures Second Edition](https://www.w3.org/TR/xml/](https://www.w3.org/TR/xmlschema-1/))
+5. [XML Schema Part 2: Datatypes Second Edition](https://www.w3.org/TR/xmlschema-2/)
+6. [W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures](https://www.w3.org/TR/xmlschema11-1/)
+5. [W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes](https://www.w3.org/TR/xmlschema-2/)
+
+### :books: Odporúčané zdroje
+1. [ZVON – Všetko o XML a ako vytvoriť XML](http://www.zvon.org/) 
+2. [Interval – Všetko o odkazoch](http://interval.cz/clanky/slabikar-xml-odkazy/)
+3. [Kosek – Seriál o XML](http://www.kosek.cz/clanky/swn-xml/index.html)
+4. [W3Schools – Tutorial XML](http://www.w3schools.com/xml/default.asp)
+5. [W3Schools – Tutorial XML Schema](https://www.w3schools.com/xml/schema_intro.asp)
+6. [Derek Banas – Video tutorial XML](https://www.youtube.com/watch?v=tAN-1xUsftg&list=PLBB413675AFBDC1F4)
+7. [Emmet toolkit](https://emmet.io/)
+8. [Tutorialspoint XML Schemas](https://www.tutorialspoint.com/xml/xml_schemas.htm#)
+9. [Edutechwiki](https://edutechwiki.unige.ch/en/XML_Schema_tutorial_-_Basics)
+10. [Microsoft podpora typu údajov xsd xml schema](https://support.microsoft.com/sk-sk/office/podpora-typu-údajov-xsd-xml-schema-definition-7cd3c906-9b9e-4a64-ba77-1b23dc5c771c)
 
 ### Vzorové XML elementy
 ```xml
