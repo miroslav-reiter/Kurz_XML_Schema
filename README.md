@@ -1,5 +1,5 @@
 # Kurz XML II. XML Schema
-:briefcase: Materiály z [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/)
+:briefcase: Materiály [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/) a [online kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/)
 
 ## 📑 Anotácia a Osnova kurzu 
 Kurz je určený všetkým, ktorý sa chcú zoznámiť s **použitím** a **vytváraním schém XSD pre XML dokumenty**. Význam a využitie schém vzhľadom k rozvoju **webových služieb** neustále rastie. Na kurze sa naučíš **využívať hotové schémy** a **vytvárať vlastné**, vrátane zložitých podmienok pre **overenie správnosti obsahu XML** dokumentov.
@@ -172,10 +172,11 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 <sprava></sprava>
 <sprava></sprava>
 ```
-## XML Schema desings 
+## XML Schema Návrhové vzory (Schema desing patterns)
 🎎 Russian doll (Ruská bábika) - **Napodobňuje štruktúru XML dokumentu**, t. j. prvky v rámci iných prvkov sú **deklarované** **lokálne**.  
-🍕 Salami slice (Salámový plátok) - R**ozloží dokument na jednotlivé prvky** a **poskladá** ich do **komponentov** tak, že **na ich odkazuje** (cez **ref**).  
+🍕 Salami slice (Salámový plátok) - **Rozloží dokument na jednotlivé prvky** a **poskladá** ich do **komponentov** tak, že **na ich odkazuje** (cez **ref**).  
 🦯 Venetian Blind (Benátsky slepec) - Rozloží dokument na **jednotlivé** **komponenty**, ale namiesto deklarácie prvkov **vytvorí definície typu**.  
+🍏 Garden of Eden (Edenská Záhrada) 
 
 ```xml
 <Kniha>
@@ -184,11 +185,55 @@ C:\Users\Administrator\AppData\Roaming\Notepad++\plugins
 </Kniha>
 ```
 ### 🎎 Russian doll
+```xml
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Kniha">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Nazov"/>
+        <xs:element type="xs:string" name="Autor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+```
 
-
+### 🍕 Salami slice
+```xml
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Nazov" type="xs:string"/>
+  <xs:element name="Autor" type="xs:string"/>
+  <xs:element name="Kniha">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Nazov"/>
+        <xs:element ref="Autor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+```
+### 🍕 Venetian Blind
+```xml
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Kniha" type="KnihaType"/>
+  <xs:complexType name="KnihaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Nazov"/>
+      <xs:element type="xs:string" name="Autor"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+```
 
 |      Princíp      | Russian Doll | Venetian Blind |
 |:-------------------:|:-----------------------:|:-------------------------:|
 | Cohesion (Súdržnosť)            | High                    | High                      |
 | Coupling (Spojenie)            | Low                     | High                      |
 | Reusable Components (Znovupoužitelnosť komponentov) | Low                     | High                      |
+
+### Matica návrhových vzorov XML Schéme
+| Type definition/Element declaration |      Local     |     Global     |
+|:-----------------------------------:|:--------------:|:--------------:|
+| Local                               | Russian Doll   | Salami Slice   |
+| Global                              | Venetian Blind | Garden of Eden |
