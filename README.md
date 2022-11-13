@@ -1,5 +1,5 @@
 # Kurz XML II. XML Schema
-:briefcase: Materiály [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/) a [online kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/)
+:briefcase: Materiály [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/) a [online kurzu XML Schema](https://www.vita.sk/online-kurz-xml-ii-xml-schema/)
 
 ## 📑 Anotácia a Osnova kurzu 
 Kurz je určený všetkým, ktorý sa chcú zoznámiť s **použitím** a **vytváraním schém XSD pre XML dokumenty**. Význam a využitie schém vzhľadom k rozvoju **webových služieb** neustále rastie. Na kurze sa naučíš **využívať hotové schémy** a **vytvárať vlastné**, vrátane zložitých podmienok pre **overenie správnosti obsahu XML** dokumentov.
