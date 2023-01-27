@@ -1,4 +1,4 @@
-# Kurz XML II. XML Schema
+# 🏷️ Kurz XML II. XML Schema
 :briefcase: Materiály [kurzu XML Schema](https://www.it-academy.sk/kurz/xml-ii-xml-scheme/) a [online kurzu XML Schema](https://www.vita.sk/online-kurz-xml-ii-xml-schema/)
 
 ## 📑 Anotácia a Osnova kurzu 
